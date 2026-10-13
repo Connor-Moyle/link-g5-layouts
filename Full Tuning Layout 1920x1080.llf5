@@ -1,0 +1,691 @@
+<?xml version="1.0"?>
+<LinkStorage Version="100" Type=".llf5">
+	<ViewLayout>
+		<Pages SelectedPage="Basics">
+			<Page Name="Basics" NameStrId="0" CurrentTableDataID="-1" CurrentSettingsView="{00000000-0000-0000-0000-000000000000}">
+				<Views>
+					<View Type="Auto Settings" Left="2" Top="2" Width="338" Height="258" Locked="true" FontSize="0" Guid="{7BF87358-F986-44D2-B11B-D17AC2A42CB3}" BaseCaption="123" MenuLocked="false" SnakeTrail="true" GhostBox="false" ColourGradient="false" GraphDisplay="false" KeyRotation="false" HingedAxis="false" TableLockedToFocused="false" />
+					<View Type="Auto Settings" Left="2" Top="262" Width="338" Height="178" Locked="true" FontSize="0" Guid="{6B4362EB-A39B-4F36-941F-A22AB8CD7F94}" BaseCaption="721" MenuLocked="true" SnakeTrail="true" GhostBox="false" ColourGradient="false" GraphDisplay="false" KeyRotation="false" HingedAxis="false" TableLockedToFocused="false" />
+					<View Type="Auto Settings" Left="2" Top="442" Width="338" Height="90" Locked="true" FontSize="0" Guid="{CBD2F10E-0CD9-4A38-9EED-D8F6EED3CF67}" BaseCaption="6107" MenuLocked="true" SnakeTrail="true" GhostBox="false" ColourGradient="false" GraphDisplay="false" KeyRotation="false" HingedAxis="false" TableLockedToFocused="false" />
+					<View Type="Auto Settings" Left="342" Top="2" Width="338" Height="530" Locked="true" FontSize="0" Guid="{92F9B6A8-33A8-47C3-BFB8-B105015CC2F0}" BaseCaption="782" MenuLocked="true" SnakeTrail="true" GhostBox="false" ColourGradient="false" GraphDisplay="false" KeyRotation="false" HingedAxis="false" TableLockedToFocused="false" />
+					<View Type="Auto Settings" Left="682" Top="2" Width="338" Height="380" Locked="true" FontSize="0" Guid="{6F19C6FD-BF9D-4971-A429-5557D6F738FE}" BaseCaption="167" MenuLocked="true" SnakeTrail="true" GhostBox="false" ColourGradient="false" GraphDisplay="false" KeyRotation="false" HingedAxis="false" TableLockedToFocused="false" />
+					<View Type="Digital Gauge" Left="682" Top="384" Width="338" Height="148" Locked="true" FontSize="0" Guid="{7A59E4B1-465F-4CC8-828B-B31ACFD9260D}">
+						<DataIDGroups>
+							<RuntimeViewDataIDGroup GroupID="0" DataIDs="1004,1011" />
+						</DataIDGroups>
+					</View>
+					<View Type="Runtime Value List" Left="1022" Top="2" Width="298" Height="348" Locked="true" FontSize="0" Guid="{EB3F4CE1-6D18-4720-8B35-6B3609FB39D6}" ColumnsCount="1" Caption="Engine" CaptionStrId="0" SortMode="0" BoldFont="true">
+						<DataIDGroups>
+							<RuntimeViewDataIDGroup GroupID="0" DataIDs="1000,1001,1091,1078,1004,1011,3040,2936,1064,1007,2967,1203,1081,1013,1012,1014,2397,710,2056" />
+						</DataIDGroups>
+					</View>
+					<View Type="Digital Gauge" Left="1022" Top="352" Width="298" Height="180" Locked="true" FontSize="0" Guid="{8948759E-3CF0-473B-8BD5-7BD60D5E3C31}">
+						<DataIDGroups>
+							<RuntimeViewDataIDGroup GroupID="0" DataIDs="3040,2936" />
+						</DataIDGroups>
+					</View>
+					<View Type="Runtime Value List" Left="1322" Top="2" Width="372" Height="248" Locked="true" FontSize="0" Guid="{E36F51B3-52A1-4CB1-9917-B59EEAEA84CF}" ColumnsCount="1" Caption="Status" CaptionStrId="0" SortMode="0" BoldFont="true">
+						<DataIDGroups>
+							<RuntimeViewDataIDGroup GroupID="0" DataIDs="1162,1186,1385,1157,1154,1155,2593,2619,1315,2395,1892,1270,1622" />
+						</DataIDGroups>
+					</View>
+					<View Type="Runtime Value List" Left="1322" Top="252" Width="372" Height="280" Locked="true" FontSize="0" Guid="{9ED87717-7C1C-4F29-A029-228207FF930B}" ColumnsCount="1" Caption="Limits and Trims" CaptionStrId="0" SortMode="0" BoldFont="true">
+						<DataIDGroups>
+							<RuntimeViewDataIDGroup GroupID="0" DataIDs="1316,1317,1305,1306,3008,3038,2895,1395,1396,1443,1450,1530,1531,1534" />
+						</DataIDGroups>
+					</View>
+					<View Type="Dial Gauge" Left="2" Top="536" Width="298" Height="298" Locked="true" FontSize="0" Guid="{2BB1A9A1-162B-45F9-A745-5AFEE8F28714}" ManualConfig="false" GaugeMin="0" GaugeMax="9000" YellowLine="6000" RedLine="8000" LowYellowLine="-1" LowRedLine="-1" SmallTicks="5" LargeTicks="10" DecPlaces="0" GaugeColor="4259648" HighQuality="true" ViewCaption="RPM" MultiplierIndex="2">
+						<DataIDGroups>
+							<RuntimeViewDataIDGroup GroupID="0" DataIDs="1000" />
+						</DataIDGroups>
+					</View>
+					<View Type="Dial Gauge" Left="302" Top="536" Width="298" Height="298" Locked="true" FontSize="0" Guid="{A52D5385-C9F8-41B9-A5DA-4BEAA51936F2}" ManualConfig="true" GaugeMin="0.7" GaugeMax="1.2" YellowLine="2.2" RedLine="2.2" LowYellowLine="-0.3" LowRedLine="-0.3" SmallTicks="5" LargeTicks="10" DecPlaces="2" GaugeColor="16777002" HighQuality="true" ViewCaption="Lambda/AFR" MultiplierIndex="2">
+						<DataIDGroups>
+							<RuntimeViewDataIDGroup GroupID="0" DataIDs="3040" />
+						</DataIDGroups>
+					</View>
+					<View Type="Dial Gauge" Left="602" Top="536" Width="298" Height="298" Locked="true" FontSize="0" Guid="{4CE7EB05-B547-411E-9D3C-E21E78C1ACC7}" ManualConfig="true" GaugeMin="-80" GaugeMax="100" YellowLine="101" RedLine="101" LowYellowLine="-81" LowRedLine="-81" SmallTicks="5" LargeTicks="9" DecPlaces="0" GaugeColor="16777002" HighQuality="true" ViewCaption="Boost/Vac" MultiplierIndex="2">
+						<DataIDGroups>
+							<RuntimeViewDataIDGroup GroupID="0" DataIDs="1091" />
+						</DataIDGroups>
+					</View>
+					<View Type="Digital Gauge" Left="2" Top="836" Width="448" Height="122" Locked="true" FontSize="0" Guid="{22AB9469-B8D6-4029-83D4-E17C46FC6513}">
+						<DataIDGroups>
+							<RuntimeViewDataIDGroup GroupID="0" DataIDs="1081,1078" />
+						</DataIDGroups>
+					</View>
+					<View Type="Digital Gauge" Left="452" Top="836" Width="448" Height="122" Locked="true" FontSize="0" Guid="{2A9EB0E6-FA2B-49BE-AD2A-F2BF1F7CE186}">
+						<DataIDGroups>
+							<RuntimeViewDataIDGroup GroupID="0" DataIDs="1064,1007" />
+						</DataIDGroups>
+					</View>
+					<View Type="Time Plot" Left="902" Top="536" Width="792" Height="422" Locked="true" FontSize="12" Guid="{4D922AA2-C90F-4EDC-8A07-4C09BA52824E}" ZoomLinked="true" CursorLinked="true" DisplayTimeRangeStart="0" DisplayTimeRangeEnd="1" Caption="Time Plot" CaptionStrId="4264">
+						<LogParameterViewInfos>
+							<LogParameterViewInfo DataID="1000" DisplayGroup="0" />
+							<LogParameterViewInfo DataID="1159" DisplayGroup="1" />
+							<LogParameterViewInfo DataID="3" DisplayGroup="1" />
+							<LogParameterViewInfo DataID="1160" DisplayGroup="2" />
+							<LogParameterViewInfo DataID="4" DisplayGroup="2" />
+						</LogParameterViewInfos>
+						<TimePlot ShowOverlays="true" XAxisVisible="true" MarkersVisible="true" XScrollBarVisible="true" OffsetAxisVisible="true">
+							<PlotSurfaceGroup DisplayMode="0" YAxisVisible="true" YScrollBarVisible="true">
+								<PlotSurface Proportion="1.0377358490566" />
+								<PlotSurface Proportion="0.962264150943396" />
+								<PlotSurface Proportion="-1" />
+							</PlotSurfaceGroup>
+						</TimePlot>
+					</View>
+				</Views>
+			</Page>
+			<Page Name="Config" NameStrId="0" CurrentTableDataID="-1" CurrentSettingsView="{00000000-0000-0000-0000-000000000000}">
+				<Views>
+					<View Type="Runtime Value List" Left="2" Top="2" Width="498" Height="348" Locked="true" FontSize="0" Guid="{3B5380C1-38B5-4ACE-AC1A-B9FC4F1576AF}" ColumnsCount="2" Caption="Outputs" CaptionStrId="0" SortMode="0" BoldFont="true">
+						<DataIDGroups>
+							<RuntimeViewDataIDGroup GroupID="0" DataIDs="3422,3423,3424,3425,3426,3427,3428,3429,3430,3431,3432,3433,3434,3435,3436,3437,3225,3226,3227,3228,3229,3230,3231,3232,3233,3234,3375,3376,3377,3378,3379,3380,1034,1036,1035,3236,3237,3238" />
+						</DataIDGroups>
+					</View>
+					<View Type="Runtime Value List" Left="2" Top="352" Width="498" Height="230" Locked="true" FontSize="0" Guid="{B087F5E7-07C6-4063-AFAE-60B2B0C44040}" ColumnsCount="2" Caption="Analog Inputs" CaptionStrId="0" SortMode="0" BoldFont="true">
+						<DataIDGroups>
+							<RuntimeViewDataIDGroup GroupID="0" DataIDs="1334,1335,1336,1337,1338,1339,1355,1356,1357,1358,1359,1360,1362,1361,1363,1364,1052,1053,1054,1055" />
+						</DataIDGroups>
+					</View>
+					<View Type="Auto Settings" Left="502" Top="2" Width="396" Height="130" Locked="true" FontSize="0" Guid="{D5394B39-DDDF-4619-AE0C-2AC716EBDBC9}" BaseCaption="27" MenuLocked="true" SnakeTrail="true" GhostBox="false" ColourGradient="false" GraphDisplay="false" KeyRotation="false" HingedAxis="false" TableLockedToFocused="false" />
+					<View Type="Auto Settings" Left="502" Top="134" Width="396" Height="130" Locked="true" FontSize="0" Guid="{C151E14D-98F1-4479-AE11-39E2B63725CA}" BaseCaption="32" MenuLocked="true" SnakeTrail="true" GhostBox="false" ColourGradient="false" GraphDisplay="false" KeyRotation="false" HingedAxis="false" TableLockedToFocused="false" />
+					<View Type="Auto Settings" Left="502" Top="266" Width="396" Height="130" Locked="true" FontSize="0" Guid="{77A1CA14-C0C9-4346-BAF4-B6792DB8C86F}" BaseCaption="41" MenuLocked="true" SnakeTrail="true" GhostBox="false" ColourGradient="false" GraphDisplay="false" KeyRotation="false" HingedAxis="false" TableLockedToFocused="false" />
+					<View Type="Auto Settings" Left="502" Top="398" Width="396" Height="184" Locked="true" FontSize="0" Guid="{D83EB063-1C30-43CA-A93A-7AA069D7A844}" BaseCaption="1111" MenuLocked="true" SnakeTrail="true" GhostBox="false" ColourGradient="false" GraphDisplay="false" KeyRotation="false" HingedAxis="false" TableLockedToFocused="false" />
+					<View Type="Auto Settings" Left="900" Top="2" Width="396" Height="130" Locked="true" FontSize="0" Guid="{0A88CD7D-35A7-4F39-B49A-57075F2EF629}" BaseCaption="868" MenuLocked="true" SnakeTrail="true" GhostBox="false" ColourGradient="false" GraphDisplay="false" KeyRotation="false" HingedAxis="false" TableLockedToFocused="false" />
+					<View Type="Auto Settings" Left="900" Top="134" Width="396" Height="130" Locked="true" FontSize="0" Guid="{A5D26439-6163-4364-B8C9-2D2B574CEEB9}" BaseCaption="2019" MenuLocked="true" SnakeTrail="true" GhostBox="false" ColourGradient="false" GraphDisplay="false" KeyRotation="false" HingedAxis="false" TableLockedToFocused="false" />
+					<View Type="Auto Settings" Left="900" Top="266" Width="396" Height="130" Locked="true" FontSize="0" Guid="{91936459-77CE-43EF-8498-A37765EC2244}" BaseCaption="43" MenuLocked="true" SnakeTrail="true" GhostBox="false" ColourGradient="false" GraphDisplay="false" KeyRotation="false" HingedAxis="false" TableLockedToFocused="false" />
+					<View Type="Auto Settings" Left="900" Top="398" Width="396" Height="184" Locked="true" FontSize="0" Guid="{EEEF8C5B-9DAA-41F8-82D9-075ABC709407}" BaseCaption="42" MenuLocked="true" SnakeTrail="true" GhostBox="false" ColourGradient="false" GraphDisplay="false" KeyRotation="false" HingedAxis="false" TableLockedToFocused="false" />
+					<View Type="Auto Settings" Left="1298" Top="2" Width="396" Height="172" Locked="true" FontSize="0" Guid="{D8ED22E5-AC41-4BEE-A9EB-92A453DBA2F5}" BaseCaption="2274" MenuLocked="true" SnakeTrail="true" GhostBox="false" ColourGradient="false" GraphDisplay="false" KeyRotation="false" HingedAxis="false" TableLockedToFocused="false" />
+					<View Type="Auto Settings" Left="1298" Top="176" Width="396" Height="406" Locked="true" FontSize="0" Guid="{A3972CDD-E7F8-4D7B-A6AE-1A47601B1352}" BaseCaption="5286" MenuLocked="true" SnakeTrail="true" GhostBox="false" ColourGradient="false" GraphDisplay="false" KeyRotation="false" HingedAxis="false" TableLockedToFocused="false" />
+					<View Type="Auto Settings" Left="2" Top="586" Width="596" Height="150" Locked="true" FontSize="0" Guid="{D0295F7A-58D2-42CC-8ECF-CBC81F86B167}" BaseCaption="3471" MenuLocked="true" SnakeTrail="true" GhostBox="false" ColourGradient="true" GraphDisplay="false" KeyRotation="false" HingedAxis="false" TableLockedToFocused="false" />
+					<View Type="Auto Settings" Left="2" Top="738" Width="596" Height="100" Locked="true" FontSize="0" Guid="{162846A6-4B1C-4BB4-94F2-5359A7F553A6}" BaseCaption="1954" MenuLocked="true" SnakeTrail="true" GhostBox="false" ColourGradient="true" GraphDisplay="false" KeyRotation="false" HingedAxis="false" TableLockedToFocused="false" />
+					<View Type="Auto Settings" Left="2" Top="840" Width="596" Height="118" Locked="true" FontSize="0" Guid="{B7A74D69-BC53-47A7-ADA1-1A223BAB4A51}" BaseCaption="4696" MenuLocked="true" SnakeTrail="true" GhostBox="false" ColourGradient="true" GraphDisplay="false" KeyRotation="false" HingedAxis="false" TableLockedToFocused="false" />
+					<View Type="Auto Settings" Left="600" Top="586" Width="366" Height="190" Locked="true" FontSize="0" Guid="{64B3419B-4BF2-420A-B4A3-43F18A4551B6}" BaseCaption="2381" MenuLocked="true" SnakeTrail="true" GhostBox="false" ColourGradient="false" GraphDisplay="false" KeyRotation="false" HingedAxis="false" TableLockedToFocused="false" />
+					<View Type="Runtime Value List" Left="600" Top="778" Width="366" Height="180" Locked="true" FontSize="0" Guid="{EDF46BBC-A9F0-483C-834D-C83BE48362BD}" ColumnsCount="2" Caption="Digital Inputs" CaptionStrId="0" SortMode="0" BoldFont="true">
+						<DataIDGroups>
+							<RuntimeViewDataIDGroup GroupID="0" DataIDs="2541,2542,2543,2544,2545,2546,2547,2548,2549,2550,2551,2552,2599,2600,2601,2602" />
+						</DataIDGroups>
+					</View>
+					<View Type="Auto Settings" Left="968" Top="586" Width="362" Height="110" Locked="true" FontSize="0" Guid="{A73ACE38-0B7D-4C95-99E8-F62419D71C65}" BaseCaption="761" MenuLocked="true" SnakeTrail="true" GhostBox="false" ColourGradient="false" GraphDisplay="false" KeyRotation="false" HingedAxis="false" TableLockedToFocused="false" />
+					<View Type="Auto Settings" Left="968" Top="698" Width="362" Height="80" Locked="true" FontSize="0" Guid="{BE99E8A6-2AA2-4A7F-A4A8-18B7A76ED7E8}" BaseCaption="49" MenuLocked="true" SnakeTrail="true" GhostBox="false" ColourGradient="false" GraphDisplay="false" KeyRotation="false" HingedAxis="false" TableLockedToFocused="false" />
+					<View Type="Runtime Value List" Left="968" Top="780" Width="362" Height="178" Locked="true" FontSize="0" Guid="{C721147A-6678-4D02-B2AA-D6C1B90E888F}" ColumnsCount="1" Caption="ECU" CaptionStrId="0" SortMode="0" BoldFont="true">
+						<DataIDGroups>
+							<RuntimeViewDataIDGroup GroupID="0" DataIDs="1081,2056,1162,1186,1159,1160,2092,2093,838" />
+						</DataIDGroups>
+					</View>
+					<View Type="Auto Settings" Left="1332" Top="586" Width="362" Height="372" Locked="true" FontSize="0" Guid="{AD06C908-AB2C-4732-9E14-BF814E35D3B3}" BaseCaption="2364" MenuLocked="true" SnakeTrail="true" GhostBox="false" ColourGradient="false" GraphDisplay="false" KeyRotation="false" HingedAxis="false" TableLockedToFocused="false" />
+				</Views>
+			</Page>
+			<Page Name="Ignition Tune" NameStrId="0" CurrentTableDataID="2366" CurrentSettingsView="{00000000-0000-0000-0000-000000000000}">
+				<Views>
+					<View Type="Auto Settings" Left="2" Top="2" Width="1078" Height="520" Locked="true" FontSize="0" Guid="{6FB09F5F-4A6D-4953-8EFD-5824EC3C8800}" BaseCaption="1857" MenuLocked="true" SnakeTrail="true" GhostBox="false" ColourGradient="true" GraphDisplay="false" KeyRotation="false" HingedAxis="false" TableLockedToFocused="false" />
+					<View Type="Auto Settings" Left="1082" Top="2" Width="406" Height="520" Locked="true" FontSize="0" Guid="{D766526A-4ED6-4EA3-A7BA-3620CBAED8BE}" BaseCaption="1857" MenuLocked="true" SnakeTrail="true" GhostBox="false" ColourGradient="false" GraphDisplay="true" KeyRotation="false" HingedAxis="true" TableLockedToFocused="true" />
+					<View Type="Digital Gauge" Left="1490" Top="2" Width="204" Height="520" Locked="true" FontSize="0" Guid="{2D58F168-9A9B-4B41-9259-9F1D92CCAB53}">
+						<DataIDGroups>
+							<RuntimeViewDataIDGroup GroupID="0" DataIDs="1000,1091,1064,3040,1004,1011" />
+						</DataIDGroups>
+					</View>
+					<View Type="Auto Settings" Left="2" Top="524" Width="430" Height="216" Locked="true" FontSize="0" Guid="{ABCD0507-A07B-4274-A070-3B455C1ACFB1}" BaseCaption="667" MenuLocked="true" SnakeTrail="true" GhostBox="false" ColourGradient="true" GraphDisplay="false" KeyRotation="false" HingedAxis="false" TableLockedToFocused="false" />
+					<View Type="Auto Settings" Left="2" Top="742" Width="430" Height="216" Locked="true" FontSize="0" Guid="{61368602-D660-45CF-84DD-0B0BCBDCD82A}" BaseCaption="670" MenuLocked="true" SnakeTrail="true" GhostBox="false" ColourGradient="true" GraphDisplay="false" KeyRotation="false" HingedAxis="false" TableLockedToFocused="false" />
+					<View Type="Runtime Value List" Left="434" Top="524" Width="248" Height="434" Locked="true" FontSize="0" Guid="{571E3440-D380-465F-8FC7-C0E71CDD2EE3}" ColumnsCount="1" Caption="Ignition" CaptionStrId="0" SortMode="0" BoldFont="true">
+						<DataIDGroups>
+							<RuntimeViewDataIDGroup GroupID="0" DataIDs="1064,1048,1395,1396,1443,1450,1403,1391,1065,1525,1629,1203,1080,1000,1001,1091,1078" />
+						</DataIDGroups>
+					</View>
+					<View Type="Time Plot" Left="684" Top="524" Width="1010" Height="434" Locked="true" FontSize="12" Guid="{8E1F92F0-730F-400F-8D7F-75C741326A19}" ZoomLinked="true" CursorLinked="true" DisplayTimeRangeStart="0" DisplayTimeRangeEnd="1" Caption="Time Plot" CaptionStrId="4264">
+						<LogParameterViewInfos>
+							<LogParameterViewInfo DataID="1000" DisplayGroup="0" />
+							<LogParameterViewInfo DataID="1064" DisplayGroup="1" />
+							<LogParameterViewInfo DataID="1091" DisplayGroup="1" />
+							<LogParameterViewInfo DataID="1078" DisplayGroup="1" />
+							<LogParameterViewInfo DataID="2278" DisplayGroup="2" />
+							<LogParameterViewInfo DataID="2279" DisplayGroup="2" />
+							<LogParameterViewInfo DataID="2280" DisplayGroup="2" />
+							<LogParameterViewInfo DataID="2281" DisplayGroup="2" />
+							<LogParameterViewInfo DataID="2282" DisplayGroup="2" />
+							<LogParameterViewInfo DataID="2283" DisplayGroup="2" />
+							<LogParameterViewInfo DataID="2284" DisplayGroup="2" />
+							<LogParameterViewInfo DataID="2285" DisplayGroup="2" />
+						</LogParameterViewInfos>
+						<TimePlot ShowOverlays="true" XAxisVisible="true" MarkersVisible="true" XScrollBarVisible="true" OffsetAxisVisible="true">
+							<PlotSurfaceGroup DisplayMode="0" YAxisVisible="true" YScrollBarVisible="true">
+								<PlotSurface Proportion="0.970588235294118" />
+								<PlotSurface Proportion="1.02941176470588" />
+								<PlotSurface Proportion="-1" />
+							</PlotSurfaceGroup>
+						</TimePlot>
+					</View>
+				</Views>
+			</Page>
+			<Page Name="Fuel Tune" NameStrId="0" CurrentTableDataID="2365" CurrentSettingsView="{00000000-0000-0000-0000-000000000000}">
+				<Views>
+					<View Type="Auto Settings" Left="2" Top="2" Width="1078" Height="520" Locked="true" FontSize="0" Guid="{3B90A7E1-407A-4462-B434-3603D4F74D37}" BaseCaption="1854" MenuLocked="true" SnakeTrail="true" GhostBox="false" ColourGradient="true" GraphDisplay="false" KeyRotation="false" HingedAxis="false" TableLockedToFocused="false" />
+					<View Type="Auto Settings" Left="1082" Top="2" Width="406" Height="300" Locked="true" FontSize="0" Guid="{B6B18AC8-019F-40CC-9FA4-D748EA540029}" BaseCaption="1854" MenuLocked="true" SnakeTrail="true" GhostBox="false" ColourGradient="false" GraphDisplay="true" KeyRotation="false" HingedAxis="true" TableLockedToFocused="true" />
+					<View Type="Auto Settings" Left="1082" Top="304" Width="406" Height="218" Locked="true" FontSize="0" Guid="{3C9E33B2-958B-406F-B387-49D0034EB122}" BaseCaption="3471" MenuLocked="true" SnakeTrail="true" GhostBox="false" ColourGradient="true" GraphDisplay="false" KeyRotation="false" HingedAxis="false" TableLockedToFocused="false" />
+					<View Type="Digital Gauge" Left="1490" Top="2" Width="204" Height="520" Locked="true" FontSize="0" Guid="{C17E46B7-B297-4640-8F8F-7A153285CE0E}">
+						<DataIDGroups>
+							<RuntimeViewDataIDGroup GroupID="0" DataIDs="3040,2936,1000,1091,1007,2397" />
+						</DataIDGroups>
+					</View>
+					<View Type="Auto Settings" Left="2" Top="524" Width="340" Height="216" Locked="true" FontSize="0" Guid="{B494B219-6199-4CA8-9ACB-FF0A31871167}" BaseCaption="2387" MenuLocked="true" SnakeTrail="true" GhostBox="false" ColourGradient="false" GraphDisplay="false" KeyRotation="false" HingedAxis="false" TableLockedToFocused="false" />
+					<View Type="Auto Settings" Left="2" Top="742" Width="340" Height="216" Locked="true" FontSize="0" Guid="{3703A841-476F-48D5-87EC-85B5CB5D9BB0}" BaseCaption="1080" MenuLocked="true" SnakeTrail="true" GhostBox="false" ColourGradient="false" GraphDisplay="false" KeyRotation="false" HingedAxis="false" TableLockedToFocused="false" />
+					<View Type="Auto Settings" Left="344" Top="524" Width="400" Height="216" Locked="true" FontSize="0" Guid="{2AE811A2-7988-48A2-ABC6-0A11727373B3}" BaseCaption="3297" MenuLocked="true" SnakeTrail="true" GhostBox="false" ColourGradient="true" GraphDisplay="false" KeyRotation="false" HingedAxis="false" TableLockedToFocused="false" />
+					<View Type="Auto Settings" Left="344" Top="742" Width="400" Height="216" Locked="true" FontSize="0" Guid="{E0C02842-41C5-429D-9610-6F62A9EA1B88}" BaseCaption="3303" MenuLocked="true" SnakeTrail="true" GhostBox="false" ColourGradient="true" GraphDisplay="false" KeyRotation="false" HingedAxis="false" TableLockedToFocused="false" />
+					<View Type="Runtime Value List" Left="746" Top="524" Width="248" Height="434" Locked="true" FontSize="0" Guid="{6650A8AB-09E7-4EB5-8B8F-AC71D3A470F6}" ColumnsCount="1" Caption="Fuel" CaptionStrId="0" SortMode="0" BoldFont="true">
+						<DataIDGroups>
+							<RuntimeViewDataIDGroup GroupID="0" DataIDs="3040,2936,2395,2968,2967,1007,1083,3008,3056,3010,3038,2895,3001,1013,2397,1622,1000,1001,1091,1078" />
+						</DataIDGroups>
+					</View>
+					<View Type="Time Plot" Left="996" Top="524" Width="698" Height="434" Locked="true" FontSize="12" Guid="{4753415A-6BC3-4788-A969-79BDEA432AB8}" ZoomLinked="true" CursorLinked="true" DisplayTimeRangeStart="0" DisplayTimeRangeEnd="1" Caption="Time Plot" CaptionStrId="4264">
+						<LogParameterViewInfos>
+							<LogParameterViewInfo DataID="1000" DisplayGroup="0" />
+							<LogParameterViewInfo DataID="1091" DisplayGroup="1" />
+							<LogParameterViewInfo DataID="1078" DisplayGroup="1" />
+							<LogParameterViewInfo DataID="1064" DisplayGroup="1" />
+							<LogParameterViewInfo DataID="3040" DisplayGroup="2" />
+							<LogParameterViewInfo DataID="3041" DisplayGroup="2" />
+							<LogParameterViewInfo DataID="2936" DisplayGroup="2" />
+							<LogParameterViewInfo DataID="2392" DisplayGroup="3" />
+							<LogParameterViewInfo DataID="2968" DisplayGroup="4" />
+							<LogParameterViewInfo DataID="1081" DisplayGroup="4" />
+						</LogParameterViewInfos>
+						<TimePlot ShowOverlays="true" XAxisVisible="true" MarkersVisible="true" XScrollBarVisible="true" OffsetAxisVisible="true">
+							<PlotSurfaceGroup DisplayMode="0" YAxisVisible="true" YScrollBarVisible="true">
+								<PlotSurface Proportion="1.04761904761905" />
+								<PlotSurface Proportion="0.934426229508197" />
+								<PlotSurface Proportion="0.885245901639344" />
+								<PlotSurface Proportion="0.963855421686747" />
+								<PlotSurface Proportion="1.17460317460317" />
+							</PlotSurfaceGroup>
+						</TimePlot>
+					</View>
+				</Views>
+			</Page>
+			<Page Name="Timing" NameStrId="0" CurrentTableDataID="-1" CurrentSettingsView="{00000000-0000-0000-0000-000000000000}">
+				<Views>
+					<View Type="Auto Settings" Left="2" Top="2" Width="398" Height="100" Locked="true" FontSize="0" Guid="{22BEAE27-8A58-4AD9-BF59-B39475D96FF9}" BaseCaption="6107" MenuLocked="true" SnakeTrail="true" GhostBox="false" ColourGradient="false" GraphDisplay="false" KeyRotation="false" HingedAxis="false" TableLockedToFocused="false" />
+					<View Type="Auto Settings" Left="2" Top="104" Width="398" Height="220" Locked="true" FontSize="0" Guid="{D664B045-412F-4DAB-A9FD-10C5178D4ED3}" BaseCaption="3182" MenuLocked="true" SnakeTrail="true" GhostBox="false" ColourGradient="false" GraphDisplay="false" KeyRotation="false" HingedAxis="false" TableLockedToFocused="false" />
+					<View Type="Auto Settings" Left="2" Top="326" Width="398" Height="180" Locked="true" FontSize="0" Guid="{B6AB3B19-219D-4BB1-8E70-9F3E8EDFB39A}" BaseCaption="3098" MenuLocked="true" SnakeTrail="true" GhostBox="false" ColourGradient="false" GraphDisplay="false" KeyRotation="false" HingedAxis="false" TableLockedToFocused="false" />
+					<View Type="Auto Settings" Left="402" Top="2" Width="398" Height="100" Locked="true" FontSize="0" Guid="{C5E28B9F-0050-45CF-9D8E-4713CDD61C92}" BaseCaption="3196" MenuLocked="true" SnakeTrail="true" GhostBox="false" ColourGradient="false" GraphDisplay="false" KeyRotation="false" HingedAxis="false" TableLockedToFocused="false" />
+					<View Type="Auto Settings" Left="402" Top="104" Width="398" Height="180" Locked="true" FontSize="0" Guid="{B01BA899-21D7-4B0E-A61B-F299F8AA4525}" BaseCaption="721" MenuLocked="true" SnakeTrail="true" GhostBox="false" ColourGradient="false" GraphDisplay="false" KeyRotation="false" HingedAxis="false" TableLockedToFocused="false" />
+					<View Type="Auto Settings" Left="402" Top="286" Width="398" Height="100" Locked="true" FontSize="0" Guid="{6779E49E-790A-49A6-B437-2AEB97436407}" BaseCaption="1954" MenuLocked="true" SnakeTrail="true" GhostBox="false" ColourGradient="true" GraphDisplay="false" KeyRotation="false" HingedAxis="false" TableLockedToFocused="false" />
+					<View Type="Digital Gauge" Left="402" Top="388" Width="398" Height="118" Locked="true" FontSize="0" Guid="{CE12271B-60B3-4680-9B72-AFCE9AC54054}">
+						<DataIDGroups>
+							<RuntimeViewDataIDGroup GroupID="0" DataIDs="1000,1064" />
+						</DataIDGroups>
+					</View>
+					<View Type="Auto Settings" Left="802" Top="2" Width="596" Height="280" Locked="true" FontSize="0" Guid="{E11AE1DE-0DB3-4186-8C12-E9ED335A0535}" BaseCaption="3309" MenuLocked="true" SnakeTrail="true" GhostBox="false" ColourGradient="true" GraphDisplay="false" KeyRotation="false" HingedAxis="false" TableLockedToFocused="false" />
+					<View Type="Auto Settings" Left="802" Top="284" Width="596" Height="110" Locked="true" FontSize="0" Guid="{38383124-8C1E-4F23-902C-A24A7EF70469}" BaseCaption="3183" MenuLocked="true" SnakeTrail="true" GhostBox="false" ColourGradient="true" GraphDisplay="false" KeyRotation="false" HingedAxis="false" TableLockedToFocused="false" />
+					<View Type="Auto Settings" Left="802" Top="396" Width="596" Height="110" Locked="true" FontSize="0" Guid="{26529942-B0BA-40A0-914F-7BA9A1C2BEF1}" BaseCaption="3185" MenuLocked="true" SnakeTrail="true" GhostBox="false" ColourGradient="true" GraphDisplay="false" KeyRotation="false" HingedAxis="false" TableLockedToFocused="false" />
+					<View Type="Runtime Value List" Left="1400" Top="2" Width="294" Height="504" Locked="true" FontSize="0" Guid="{6769AEBC-63EE-4AEE-846C-9BBF174EC13B}" ColumnsCount="1" Caption="Triggers" CaptionStrId="0" SortMode="0" BoldFont="true">
+						<DataIDGroups>
+							<RuntimeViewDataIDGroup GroupID="0" DataIDs="1000,1385,1157,1159,1160,2092,2093,1158,1153,1038,1039,1064,1048,1203,1081,1083" />
+						</DataIDGroups>
+					</View>
+					<View Type="Time Plot" Left="2" Top="510" Width="1692" Height="448" Locked="true" FontSize="12" Guid="{87048342-161F-4696-95E4-A6B08F1D8C88}" ZoomLinked="true" CursorLinked="true" DisplayTimeRangeStart="0" DisplayTimeRangeEnd="1" Caption="Time Plot" CaptionStrId="4264">
+						<LogParameterViewInfos>
+							<LogParameterViewInfo DataID="1000" DisplayGroup="0" />
+							<LogParameterViewInfo DataID="1159" DisplayGroup="1" />
+							<LogParameterViewInfo DataID="3" DisplayGroup="1" />
+							<LogParameterViewInfo DataID="1160" DisplayGroup="2" />
+							<LogParameterViewInfo DataID="4" DisplayGroup="2" />
+						</LogParameterViewInfos>
+						<TimePlot ShowOverlays="true" XAxisVisible="true" MarkersVisible="true" XScrollBarVisible="true" OffsetAxisVisible="true">
+							<PlotSurfaceGroup DisplayMode="0" YAxisVisible="true" YScrollBarVisible="true">
+								<PlotSurface Proportion="1.0377358490566" />
+								<PlotSurface Proportion="0.962264150943396" />
+								<PlotSurface Proportion="-1" />
+							</PlotSurfaceGroup>
+						</TimePlot>
+					</View>
+				</Views>
+			</Page>
+			<Page Name="CAN Bus" NameStrId="0" CurrentTableDataID="-1" CurrentSettingsView="{00000000-0000-0000-0000-000000000000}">
+				<Views>
+					<View Type="Auto Settings" Left="2" Top="2" Width="398" Height="300" Locked="true" FontSize="0" Guid="{A2E1CEC2-EDD0-4684-A243-511CF3836D13}" BaseCaption="97" MenuLocked="false" SnakeTrail="true" GhostBox="false" ColourGradient="false" GraphDisplay="false" KeyRotation="false" HingedAxis="false" TableLockedToFocused="false" />
+					<View Type="Auto Settings" Left="2" Top="304" Width="398" Height="654" Locked="true" FontSize="0" Guid="{9F2A1ADC-24FB-417E-BDC4-9F3B93F36257}" BaseCaption="6684" MenuLocked="true" SnakeTrail="true" GhostBox="false" ColourGradient="false" GraphDisplay="false" KeyRotation="false" HingedAxis="false" TableLockedToFocused="false" />
+					<View Type="Runtime Value List" Left="402" Top="2" Width="238" Height="296" Locked="true" FontSize="0" Guid="{FBE12D71-B4C5-40E7-BEE7-C799F5AD4E47}" ColumnsCount="1" Caption="CAN Digital Inputs" CaptionStrId="0" SortMode="0" BoldFont="true">
+						<DataIDGroups>
+							<RuntimeViewDataIDGroup GroupID="0" DataIDs="1488,1489,1490,1491,1492,1493,1494,1495,839,840,841,842,843,844,845,846" />
+						</DataIDGroups>
+					</View>
+					<View Type="Runtime Value List" Left="402" Top="300" Width="238" Height="160" Locked="true" FontSize="0" Guid="{CFE82973-2EE0-44C8-8FEF-D6DB53B04FFC}" ColumnsCount="1" Caption="CAN Frequency Inputs" CaptionStrId="0" SortMode="0" BoldFont="true">
+						<DataIDGroups>
+							<RuntimeViewDataIDGroup GroupID="0" DataIDs="350,351,352,353,354,355,356,357" />
+						</DataIDGroups>
+					</View>
+					<View Type="Runtime Value List" Left="402" Top="462" Width="238" Height="194" Locked="true" FontSize="0" Guid="{0FC19328-D0E4-4BAF-B13B-A7960021FB61}" ColumnsCount="1" Caption="CAN Thermocouples" CaptionStrId="0" SortMode="0" BoldFont="true">
+						<DataIDGroups>
+							<RuntimeViewDataIDGroup GroupID="0" DataIDs="1429,1430,1431,1432,1433,1434,1435,1436" />
+						</DataIDGroups>
+					</View>
+					<View Type="Runtime Value List" Left="642" Top="2" Width="238" Height="296" Locked="true" FontSize="0" Guid="{0935E6DD-666F-44B7-A878-654A71204C30}" ColumnsCount="1" Caption="CAN Analog Inputs" CaptionStrId="0" SortMode="0" BoldFont="true">
+						<DataIDGroups>
+							<RuntimeViewDataIDGroup GroupID="0" DataIDs="1421,1422,1423,1424,1425,1426,1427,1428,1979,1980,1981,1982,1983,1984,1985,1986" />
+						</DataIDGroups>
+					</View>
+					<View Type="Runtime Value List" Left="642" Top="300" Width="238" Height="126" Locked="true" FontSize="0" Guid="{69D0BB5D-5967-4248-B305-785E7B846D2C}" ColumnsCount="1" Caption="CAN Lambda" CaptionStrId="0" SortMode="0" BoldFont="true">
+						<DataIDGroups>
+							<RuntimeViewDataIDGroup GroupID="0" DataIDs="3040,1890,1892,1893,2936,2395" />
+						</DataIDGroups>
+					</View>
+					<View Type="Runtime Value List" Left="642" Top="428" Width="238" Height="228" Locked="true" FontSize="0" Guid="{322810E2-D822-4358-B211-4E7081F85C47}" ColumnsCount="1" Caption="CAN 1 Bus Status" CaptionStrId="0" SortMode="0" BoldFont="true">
+						<DataIDGroups>
+							<RuntimeViewDataIDGroup GroupID="0" DataIDs="3771,3772,3773,3774,3775,3776,3777,3778,3779,3780,3781,3782" />
+						</DataIDGroups>
+					</View>
+					<View Type="Runtime Value List" Left="882" Top="2" Width="218" Height="296" Locked="true" FontSize="0" Guid="{E52E3D76-FCA3-4B31-891C-848A0B24C0B7}" ColumnsCount="1" Caption="CAN Aux Outputs" CaptionStrId="0" SortMode="0" BoldFont="true">
+						<DataIDGroups>
+							<RuntimeViewDataIDGroup GroupID="0" DataIDs="200,201,202,203,204,205,206,207,208,209,210,211,212,213,214,215" />
+						</DataIDGroups>
+					</View>
+					<View Type="Runtime Value List" Left="882" Top="300" Width="218" Height="144" Locked="true" FontSize="0" Guid="{D9000ADE-6918-4BC0-BC14-F6C71C8F832B}" ColumnsCount="1" Caption="Keypad / Switch Functions" CaptionStrId="0" SortMode="0" BoldFont="true">
+						<DataIDGroups>
+							<RuntimeViewDataIDGroup GroupID="0" DataIDs="2593,2619,2618,2576,1048,1787,710" />
+						</DataIDGroups>
+					</View>
+					<View Type="Runtime Value List" Left="882" Top="446" Width="218" Height="210" Locked="true" FontSize="0" Guid="{8818AEF4-E998-4809-86F2-5840C3C3E888}" ColumnsCount="1" Caption="PDM 1" CaptionStrId="0" SortMode="0" BoldFont="true">
+						<DataIDGroups>
+							<RuntimeViewDataIDGroup GroupID="0" DataIDs="20,22,24,26,27,28,29" />
+						</DataIDGroups>
+					</View>
+					<View Type="Runtime Value List" Left="1102" Top="332" Width="592" Height="324" Locked="true" FontSize="0" Guid="{3A415D85-8B6E-4001-BA5F-51BD4740B798}" ColumnsCount="2" Caption="CAN Aux Frequency / Duty" CaptionStrId="0" SortMode="0" BoldFont="true">
+						<DataIDGroups>
+							<RuntimeViewDataIDGroup GroupID="0" DataIDs="216,217,218,219,220,221,222,223,224,225,226,227,228,229,230,231,232,233,234,235,236,237,238,239,240,241,242,243,244,245,246,247" />
+						</DataIDGroups>
+					</View>
+					<View Type="Auto Settings" Left="1102" Top="2" Width="296" Height="108" Locked="true" FontSize="0" Guid="{326B2B12-3CA3-456F-ACE0-26D1E0EA7418}" BaseCaption="6698" MenuLocked="true" SnakeTrail="true" GhostBox="false" ColourGradient="false" GraphDisplay="false" KeyRotation="false" HingedAxis="false" TableLockedToFocused="false" />
+					<View Type="Auto Settings" Left="1400" Top="2" Width="294" Height="108" Locked="true" FontSize="0" Guid="{F158E281-CB2E-4EB0-A13F-5A89CD493EF3}" BaseCaption="6699" MenuLocked="true" SnakeTrail="true" GhostBox="false" ColourGradient="false" GraphDisplay="false" KeyRotation="false" HingedAxis="false" TableLockedToFocused="false" />
+					<View Type="Auto Settings" Left="1102" Top="112" Width="296" Height="108" Locked="true" FontSize="0" Guid="{9038ABC3-5586-4663-93E6-77FB4993EA36}" BaseCaption="6700" MenuLocked="true" SnakeTrail="true" GhostBox="false" ColourGradient="false" GraphDisplay="false" KeyRotation="false" HingedAxis="false" TableLockedToFocused="false" />
+					<View Type="Auto Settings" Left="1400" Top="112" Width="294" Height="108" Locked="true" FontSize="0" Guid="{E158FA09-6692-4414-917E-AB52107B7261}" BaseCaption="6701" MenuLocked="true" SnakeTrail="true" GhostBox="false" ColourGradient="false" GraphDisplay="false" KeyRotation="false" HingedAxis="false" TableLockedToFocused="false" />
+					<View Type="Auto Settings" Left="1102" Top="222" Width="296" Height="108" Locked="true" FontSize="0" Guid="{A7AB9745-7A94-4A2D-8F75-A222A1E97F9B}" BaseCaption="6702" MenuLocked="true" SnakeTrail="true" GhostBox="false" ColourGradient="false" GraphDisplay="false" KeyRotation="false" HingedAxis="false" TableLockedToFocused="false" />
+					<View Type="Auto Settings" Left="1400" Top="222" Width="294" Height="108" Locked="true" FontSize="0" Guid="{CF0211EE-79C0-4774-ADFF-4273424A0F0F}" BaseCaption="6703" MenuLocked="true" SnakeTrail="true" GhostBox="false" ColourGradient="false" GraphDisplay="false" KeyRotation="false" HingedAxis="false" TableLockedToFocused="false" />
+					<View Type="Auto Settings" Left="402" Top="660" Width="214" Height="148" Locked="true" FontSize="0" Guid="{97B82E6A-DAAC-4425-97E9-8880DCDAAEA4}" BaseCaption="6704" MenuLocked="true" SnakeTrail="true" GhostBox="false" ColourGradient="false" GraphDisplay="false" KeyRotation="false" HingedAxis="false" TableLockedToFocused="false" />
+					<View Type="Auto Settings" Left="618" Top="660" Width="214" Height="148" Locked="true" FontSize="0" Guid="{BB3641A6-1384-4E96-97DE-5FABA5D0C881}" BaseCaption="6705" MenuLocked="true" SnakeTrail="true" GhostBox="false" ColourGradient="false" GraphDisplay="false" KeyRotation="false" HingedAxis="false" TableLockedToFocused="false" />
+					<View Type="Auto Settings" Left="834" Top="660" Width="214" Height="148" Locked="true" FontSize="0" Guid="{2987BB48-3854-42EE-9E6D-78B575E06C0A}" BaseCaption="6988" MenuLocked="true" SnakeTrail="true" GhostBox="false" ColourGradient="false" GraphDisplay="false" KeyRotation="false" HingedAxis="false" TableLockedToFocused="false" />
+					<View Type="Auto Settings" Left="1050" Top="660" Width="214" Height="148" Locked="true" FontSize="0" Guid="{452CE3AC-064E-4C74-BBA1-99DE35FD11D4}" BaseCaption="6989" MenuLocked="true" SnakeTrail="true" GhostBox="false" ColourGradient="false" GraphDisplay="false" KeyRotation="false" HingedAxis="false" TableLockedToFocused="false" />
+					<View Type="Auto Settings" Left="1266" Top="660" Width="214" Height="148" Locked="true" FontSize="0" Guid="{EACDA0A0-3CF7-473D-8220-6F4B9292D33A}" BaseCaption="6990" MenuLocked="true" SnakeTrail="true" GhostBox="false" ColourGradient="false" GraphDisplay="false" KeyRotation="false" HingedAxis="false" TableLockedToFocused="false" />
+					<View Type="Auto Settings" Left="1482" Top="660" Width="212" Height="148" Locked="true" FontSize="0" Guid="{BD77458F-0E9B-4DB4-A949-3A8AB7488C19}" BaseCaption="6991" MenuLocked="true" SnakeTrail="true" GhostBox="false" ColourGradient="false" GraphDisplay="false" KeyRotation="false" HingedAxis="false" TableLockedToFocused="false" />
+					<View Type="Auto Settings" Left="402" Top="810" Width="320" Height="148" Locked="true" FontSize="0" Guid="{16366D96-E55C-40F0-A32C-9DA8192B39FE}" BaseCaption="6714" MenuLocked="true" SnakeTrail="true" GhostBox="false" ColourGradient="false" GraphDisplay="false" KeyRotation="false" HingedAxis="false" TableLockedToFocused="false" />
+					<View Type="Auto Settings" Left="724" Top="810" Width="320" Height="148" Locked="true" FontSize="0" Guid="{2F6C190D-04E0-47DB-8817-A6E91C21EED6}" BaseCaption="6726" MenuLocked="true" SnakeTrail="true" GhostBox="false" ColourGradient="true" GraphDisplay="false" KeyRotation="false" HingedAxis="false" TableLockedToFocused="false" />
+					<View Type="Auto Settings" Left="1046" Top="810" Width="320" Height="148" Locked="true" FontSize="0" Guid="{26709C6F-3E6A-4E68-A06F-B7BCE7C39627}" BaseCaption="6715" MenuLocked="true" SnakeTrail="true" GhostBox="false" ColourGradient="false" GraphDisplay="false" KeyRotation="false" HingedAxis="false" TableLockedToFocused="false" />
+					<View Type="Runtime Value List" Left="1368" Top="810" Width="326" Height="148" Locked="true" FontSize="0" Guid="{A99510D8-0E2D-42B6-A351-41EA3A6A7615}" ColumnsCount="1" Caption="ECU" CaptionStrId="0" SortMode="0" BoldFont="true">
+						<DataIDGroups>
+							<RuntimeViewDataIDGroup GroupID="0" DataIDs="1081,2056,1162,1186,1000" />
+						</DataIDGroups>
+					</View>
+				</Views>
+			</Page>
+			<Page Name="Boost" NameStrId="0" CurrentTableDataID="-1" CurrentSettingsView="{00000000-0000-0000-0000-000000000000}">
+				<Views>
+					<View Type="Auto Settings" Left="2" Top="2" Width="398" Height="420" Locked="true" FontSize="0" Guid="{0CF9D0CB-EFA3-43EE-9520-60F68F81577B}" BaseCaption="1320" MenuLocked="true" SnakeTrail="true" GhostBox="false" ColourGradient="false" GraphDisplay="false" KeyRotation="false" HingedAxis="false" TableLockedToFocused="false" />
+					<View Type="Auto Settings" Left="2" Top="424" Width="398" Height="534" Locked="true" FontSize="0" Guid="{A906762D-AE7D-4D36-92D0-63168A4E093F}" BaseCaption="168" MenuLocked="true" SnakeTrail="true" GhostBox="false" ColourGradient="false" GraphDisplay="false" KeyRotation="false" HingedAxis="false" TableLockedToFocused="false" />
+					<View Type="Auto Settings" Left="402" Top="2" Width="560" Height="262" Locked="true" FontSize="0" Guid="{65381CB7-A11D-480C-BC42-1E74AC311EA5}" BaseCaption="2994" MenuLocked="true" SnakeTrail="true" GhostBox="false" ColourGradient="true" GraphDisplay="false" KeyRotation="false" HingedAxis="false" TableLockedToFocused="false" />
+					<View Type="Auto Settings" Left="402" Top="266" Width="560" Height="86" Locked="true" FontSize="0" Guid="{11447A14-C7F5-4487-AF32-1F874612D3A2}" BaseCaption="1304" MenuLocked="true" SnakeTrail="true" GhostBox="false" ColourGradient="true" GraphDisplay="false" KeyRotation="false" HingedAxis="false" TableLockedToFocused="false" />
+					<View Type="Auto Settings" Left="402" Top="354" Width="560" Height="86" Locked="true" FontSize="0" Guid="{6FD6ACD1-1ECB-41C9-BE21-84C8C15983F9}" BaseCaption="1306" MenuLocked="true" SnakeTrail="true" GhostBox="false" ColourGradient="true" GraphDisplay="false" KeyRotation="false" HingedAxis="false" TableLockedToFocused="false" />
+					<View Type="Auto Settings" Left="402" Top="442" Width="560" Height="86" Locked="true" FontSize="0" Guid="{70155E20-F9E7-4013-A154-90FE8020F867}" BaseCaption="1341" MenuLocked="true" SnakeTrail="true" GhostBox="false" ColourGradient="true" GraphDisplay="false" KeyRotation="false" HingedAxis="false" TableLockedToFocused="false" />
+					<View Type="Runtime Value List" Left="964" Top="2" Width="248" Height="526" Locked="true" FontSize="0" Guid="{4A66427A-DF0E-4439-B472-B9FD034F4614}" ColumnsCount="1" Caption="Boost" CaptionStrId="0" SortMode="0" BoldFont="true">
+						<DataIDGroups>
+							<RuntimeViewDataIDGroup GroupID="0" DataIDs="1091,1001,1316,3659,1317,1829,2619,2618,1329,1330,1331,2621,1155,1531,1000,1078,1011,1004" />
+						</DataIDGroups>
+					</View>
+					<View Type="Dial Gauge" Left="1214" Top="2" Width="480" Height="300" Locked="true" FontSize="0" Guid="{2EDE306F-B19F-4109-9030-EF82F3431907}" ManualConfig="true" GaugeMin="-80" GaugeMax="100" YellowLine="101" RedLine="101" LowYellowLine="-81" LowRedLine="-81" SmallTicks="5" LargeTicks="9" DecPlaces="0" GaugeColor="16777002" HighQuality="true" ViewCaption="Boost/Vac" MultiplierIndex="2">
+						<DataIDGroups>
+							<RuntimeViewDataIDGroup GroupID="0" DataIDs="1091" />
+						</DataIDGroups>
+					</View>
+					<View Type="Digital Gauge" Left="1214" Top="304" Width="480" Height="224" Locked="true" FontSize="0" Guid="{39A6EB29-6591-46CD-B086-19EE514A6A44}">
+						<DataIDGroups>
+							<RuntimeViewDataIDGroup GroupID="0" DataIDs="1091,1316" />
+						</DataIDGroups>
+					</View>
+					<View Type="Time Plot" Left="402" Top="532" Width="1292" Height="426" Locked="true" FontSize="12" Guid="{4264806C-1323-4C69-A404-755265256A8E}" ZoomLinked="true" CursorLinked="true" DisplayTimeRangeStart="0" DisplayTimeRangeEnd="1" Caption="Time Plot" CaptionStrId="4264">
+						<LogParameterViewInfos>
+							<LogParameterViewInfo DataID="1000" DisplayGroup="0" />
+							<LogParameterViewInfo DataID="1078" DisplayGroup="1" />
+							<LogParameterViewInfo DataID="1091" DisplayGroup="2" />
+							<LogParameterViewInfo DataID="1001" DisplayGroup="2" />
+							<LogParameterViewInfo DataID="1316" DisplayGroup="3" />
+						</LogParameterViewInfos>
+						<TimePlot ShowOverlays="true" XAxisVisible="true" MarkersVisible="true" XScrollBarVisible="true" OffsetAxisVisible="true">
+							<PlotSurfaceGroup DisplayMode="0" YAxisVisible="true" YScrollBarVisible="true">
+								<PlotSurface Proportion="-1" />
+								<PlotSurface Proportion="-1" />
+								<PlotSurface Proportion="-1" />
+								<PlotSurface Proportion="-1" />
+							</PlotSurfaceGroup>
+						</TimePlot>
+					</View>
+				</Views>
+			</Page>
+			<Page Name="Idle" NameStrId="0" CurrentTableDataID="-1" CurrentSettingsView="{00000000-0000-0000-0000-000000000000}">
+				<Views>
+					<View Type="Auto Settings" Left="2" Top="2" Width="398" Height="300" Locked="true" FontSize="0" Guid="{88674EF1-C8AB-4B99-BC90-011E0F481F84}" BaseCaption="6332" MenuLocked="true" SnakeTrail="true" GhostBox="false" ColourGradient="false" GraphDisplay="false" KeyRotation="false" HingedAxis="false" TableLockedToFocused="false" />
+					<View Type="Auto Settings" Left="2" Top="304" Width="398" Height="654" Locked="true" FontSize="0" Guid="{CBC49223-6A6A-4089-8B0A-B581999E3E3B}" BaseCaption="6173" MenuLocked="true" SnakeTrail="true" GhostBox="false" ColourGradient="false" GraphDisplay="false" KeyRotation="false" HingedAxis="false" TableLockedToFocused="false" />
+					<View Type="Auto Settings" Left="402" Top="2" Width="398" Height="160" Locked="true" FontSize="0" Guid="{45392E2E-3123-49A7-88AB-FA82DD200AA6}" BaseCaption="527" MenuLocked="true" SnakeTrail="true" GhostBox="false" ColourGradient="false" GraphDisplay="false" KeyRotation="false" HingedAxis="false" TableLockedToFocused="false" />
+					<View Type="Auto Settings" Left="402" Top="164" Width="398" Height="200" Locked="true" FontSize="0" Guid="{A78A3697-837B-4860-8C2D-A39BDB4B7D2E}" BaseCaption="3059" MenuLocked="true" SnakeTrail="true" GhostBox="false" ColourGradient="true" GraphDisplay="false" KeyRotation="false" HingedAxis="false" TableLockedToFocused="false" />
+					<View Type="Auto Settings" Left="402" Top="366" Width="398" Height="140" Locked="true" FontSize="0" Guid="{FE74EB45-9D52-4FAD-B9D4-582977E593D2}" BaseCaption="614" MenuLocked="true" SnakeTrail="true" GhostBox="false" ColourGradient="true" GraphDisplay="false" KeyRotation="false" HingedAxis="false" TableLockedToFocused="false" />
+					<View Type="Auto Settings" Left="402" Top="508" Width="398" Height="142" Locked="true" FontSize="0" Guid="{E0BE8A01-EEBB-4904-865A-EA6BB5468296}" BaseCaption="612" MenuLocked="true" SnakeTrail="true" GhostBox="false" ColourGradient="true" GraphDisplay="false" KeyRotation="false" HingedAxis="false" TableLockedToFocused="false" />
+					<View Type="Runtime Value List" Left="802" Top="2" Width="248" Height="300" Locked="true" FontSize="0" Guid="{77BAA46F-1F5D-4FE8-9509-19CDFC736B58}" ColumnsCount="1" Caption="Idle" CaptionStrId="0" SortMode="0" BoldFont="true">
+						<DataIDGroups>
+							<RuntimeViewDataIDGroup GroupID="0" DataIDs="1000,1305,1307,1306,3660,1315,1525,3514,1064,1078,1001,1004,1081,3040,1600" />
+						</DataIDGroups>
+					</View>
+					<View Type="Digital Gauge" Left="802" Top="304" Width="248" Height="346" Locked="true" FontSize="0" Guid="{BF2E6F9E-EE14-42B5-A8F6-2EBBA03B9231}">
+						<DataIDGroups>
+							<RuntimeViewDataIDGroup GroupID="0" DataIDs="1000,1305" />
+						</DataIDGroups>
+					</View>
+					<View Type="Time Plot" Left="1052" Top="2" Width="642" Height="648" Locked="true" FontSize="12" Guid="{BFE89A57-7E2C-47BB-9006-AC4A1E5C0114}" ZoomLinked="true" CursorLinked="true" DisplayTimeRangeStart="0" DisplayTimeRangeEnd="1" Caption="Time Plot" CaptionStrId="4264">
+						<LogParameterViewInfos>
+							<LogParameterViewInfo DataID="1000" DisplayGroup="0" />
+							<LogParameterViewInfo DataID="1305" DisplayGroup="0" />
+							<LogParameterViewInfo DataID="1306" DisplayGroup="1" />
+							<LogParameterViewInfo DataID="3660" DisplayGroup="1" />
+							<LogParameterViewInfo DataID="1525" DisplayGroup="2" />
+							<LogParameterViewInfo DataID="1004" DisplayGroup="3" />
+						</LogParameterViewInfos>
+						<TimePlot ShowOverlays="true" XAxisVisible="true" MarkersVisible="true" XScrollBarVisible="true" OffsetAxisVisible="true">
+							<PlotSurfaceGroup DisplayMode="0" YAxisVisible="true" YScrollBarVisible="true">
+								<PlotSurface Proportion="-1" />
+								<PlotSurface Proportion="-1" />
+								<PlotSurface Proportion="-1" />
+								<PlotSurface Proportion="-1" />
+							</PlotSurfaceGroup>
+						</TimePlot>
+					</View>
+					<View Type="Auto Settings" Left="402" Top="652" Width="646" Height="150" Locked="true" FontSize="0" Guid="{D3606A00-725F-4C3F-A264-77BF241A61DB}" BaseCaption="6330" MenuLocked="true" SnakeTrail="true" GhostBox="false" ColourGradient="true" GraphDisplay="false" KeyRotation="false" HingedAxis="false" TableLockedToFocused="false" />
+					<View Type="Auto Settings" Left="402" Top="804" Width="646" Height="154" Locked="true" FontSize="0" Guid="{F1F125FD-ABED-4D4C-B535-9D6D4BAE8B98}" BaseCaption="6331" MenuLocked="true" SnakeTrail="true" GhostBox="false" ColourGradient="true" GraphDisplay="false" KeyRotation="false" HingedAxis="false" TableLockedToFocused="false" />
+					<View Type="Auto Settings" Left="1050" Top="652" Width="644" Height="306" Locked="true" FontSize="0" Guid="{356D5506-29A3-4C59-816B-C6ADA27E1288}" BaseCaption="2437" MenuLocked="true" SnakeTrail="true" GhostBox="false" ColourGradient="false" GraphDisplay="false" KeyRotation="false" HingedAxis="false" TableLockedToFocused="false" />
+				</Views>
+			</Page>
+			<Page Name="Cold Start" NameStrId="0" CurrentTableDataID="-1" CurrentSettingsView="{00000000-0000-0000-0000-000000000000}">
+				<Views>
+					<View Type="Auto Settings" Left="2" Top="2" Width="846" Height="180" Locked="true" FontSize="0" Guid="{4E152AF0-182E-4A5B-9400-53A819CAEC0D}" BaseCaption="2320" MenuLocked="true" SnakeTrail="true" GhostBox="false" ColourGradient="true" GraphDisplay="false" KeyRotation="false" HingedAxis="false" TableLockedToFocused="false" />
+					<View Type="Auto Settings" Left="2" Top="184" Width="846" Height="150" Locked="true" FontSize="0" Guid="{5F3AB7C4-8A46-498D-8F54-227C20749B10}" BaseCaption="2322" MenuLocked="true" SnakeTrail="true" GhostBox="false" ColourGradient="true" GraphDisplay="false" KeyRotation="false" HingedAxis="false" TableLockedToFocused="false" />
+					<View Type="Auto Settings" Left="2" Top="336" Width="846" Height="150" Locked="true" FontSize="0" Guid="{74F03BEC-9D8A-41AB-9822-38D0961EDCCB}" BaseCaption="3297" MenuLocked="true" SnakeTrail="true" GhostBox="false" ColourGradient="true" GraphDisplay="false" KeyRotation="false" HingedAxis="false" TableLockedToFocused="false" />
+					<View Type="Auto Settings" Left="850" Top="2" Width="560" Height="120" Locked="true" FontSize="0" Guid="{27BF1625-210F-4604-8B24-83BA2AC35AEA}" BaseCaption="2312" MenuLocked="true" SnakeTrail="true" GhostBox="false" ColourGradient="true" GraphDisplay="false" KeyRotation="false" HingedAxis="false" TableLockedToFocused="false" />
+					<View Type="Auto Settings" Left="850" Top="124" Width="560" Height="120" Locked="true" FontSize="0" Guid="{1B0B53A1-C7FF-4825-9048-9B34F44ED0EF}" BaseCaption="2316" MenuLocked="true" SnakeTrail="true" GhostBox="false" ColourGradient="true" GraphDisplay="false" KeyRotation="false" HingedAxis="false" TableLockedToFocused="false" />
+					<View Type="Auto Settings" Left="850" Top="246" Width="560" Height="120" Locked="true" FontSize="0" Guid="{5F49FE03-20E7-4BE5-9481-621DD1531A29}" BaseCaption="2318" MenuLocked="true" SnakeTrail="true" GhostBox="false" ColourGradient="true" GraphDisplay="false" KeyRotation="false" HingedAxis="false" TableLockedToFocused="false" />
+					<View Type="Auto Settings" Left="850" Top="368" Width="560" Height="118" Locked="true" FontSize="0" Guid="{52E5C25D-73C7-4118-AD85-4EC12DDBABB2}" BaseCaption="2325" MenuLocked="true" SnakeTrail="true" GhostBox="false" ColourGradient="false" GraphDisplay="false" KeyRotation="false" HingedAxis="false" TableLockedToFocused="false" />
+					<View Type="Runtime Value List" Left="1412" Top="2" Width="282" Height="484" Locked="true" FontSize="0" Guid="{BE193BD9-F764-4DC3-86A7-B38041C8838F}" ColumnsCount="1" Caption="Cold Start" CaptionStrId="0" SortMode="0" BoldFont="true">
+						<DataIDGroups>
+							<RuntimeViewDataIDGroup GroupID="0" DataIDs="1000,1004,1011,3010,3056,3008,2895,2967,3040,2936,1306,1305,1081,1064" />
+						</DataIDGroups>
+					</View>
+					<View Type="Time Plot" Left="2" Top="490" Width="1408" Height="468" Locked="true" FontSize="12" Guid="{AE15CF6F-7343-4FBE-B350-99ACEC6FE996}" ZoomLinked="true" CursorLinked="true" DisplayTimeRangeStart="0" DisplayTimeRangeEnd="1" Caption="Time Plot" CaptionStrId="4264">
+						<LogParameterViewInfos>
+							<LogParameterViewInfo DataID="1000" DisplayGroup="0" />
+							<LogParameterViewInfo DataID="2968" DisplayGroup="1" />
+						</LogParameterViewInfos>
+						<TimePlot ShowOverlays="true" XAxisVisible="true" MarkersVisible="true" XScrollBarVisible="true" OffsetAxisVisible="true">
+							<PlotSurfaceGroup DisplayMode="0" YAxisVisible="true" YScrollBarVisible="true">
+								<PlotSurface Proportion="-1" />
+								<PlotSurface Proportion="-1" />
+							</PlotSurfaceGroup>
+						</TimePlot>
+					</View>
+					<View Type="Digital Gauge" Left="1412" Top="490" Width="282" Height="468" Locked="true" FontSize="0" Guid="{4CE3B934-E0D9-4C9C-9C5B-42A1C32FBD15}">
+						<DataIDGroups>
+							<RuntimeViewDataIDGroup GroupID="0" DataIDs="1004,3040" />
+						</DataIDGroups>
+					</View>
+				</Views>
+			</Page>
+			<Page Name="MotorSport" NameStrId="0" CurrentTableDataID="-1" CurrentSettingsView="{00000000-0000-0000-0000-000000000000}">
+				<Views>
+					<View Type="Auto Settings" Left="2" Top="2" Width="420" Height="480" Locked="true" FontSize="0" Guid="{9FCC335B-73ED-4B0D-80F4-1077C183CFB4}" BaseCaption="1055" MenuLocked="true" SnakeTrail="true" GhostBox="false" ColourGradient="false" GraphDisplay="false" KeyRotation="false" HingedAxis="false" TableLockedToFocused="false" />
+					<View Type="Auto Settings" Left="2" Top="484" Width="420" Height="474" Locked="true" FontSize="0" Guid="{DF611CCA-C2A4-4CCB-8C0D-F09F8459C7B7}" BaseCaption="1990" MenuLocked="true" SnakeTrail="true" GhostBox="false" ColourGradient="false" GraphDisplay="false" KeyRotation="false" HingedAxis="false" TableLockedToFocused="false" />
+					<View Type="Auto Settings" Left="424" Top="2" Width="560" Height="236" Locked="true" FontSize="0" Guid="{17B27579-B6EA-4CC5-9DE3-D15432FCDCD5}" BaseCaption="3434" MenuLocked="true" SnakeTrail="true" GhostBox="false" ColourGradient="true" GraphDisplay="false" KeyRotation="false" HingedAxis="false" TableLockedToFocused="false" />
+					<View Type="Auto Settings" Left="424" Top="240" Width="560" Height="236" Locked="true" FontSize="0" Guid="{A68A2885-42BC-4B9A-B304-F2693FD60C50}" BaseCaption="4964" MenuLocked="true" SnakeTrail="true" GhostBox="false" ColourGradient="true" GraphDisplay="false" KeyRotation="false" HingedAxis="false" TableLockedToFocused="false" />
+					<View Type="Auto Settings" Left="424" Top="478" Width="560" Height="238" Locked="true" FontSize="0" Guid="{1814C2B4-E916-445F-81C2-CC037C2A4183}" BaseCaption="3435" MenuLocked="true" SnakeTrail="true" GhostBox="false" ColourGradient="true" GraphDisplay="false" KeyRotation="false" HingedAxis="false" TableLockedToFocused="false" />
+					<View Type="Auto Settings" Left="424" Top="718" Width="560" Height="240" Locked="true" FontSize="0" Guid="{90D41E4A-B8CF-424A-ACF6-EB0CB1AE9046}" BaseCaption="7069" MenuLocked="true" SnakeTrail="true" GhostBox="false" ColourGradient="true" GraphDisplay="false" KeyRotation="false" HingedAxis="false" TableLockedToFocused="false" />
+					<View Type="Auto Settings" Left="986" Top="2" Width="360" Height="260" Locked="true" FontSize="0" Guid="{10BE0682-5A75-408F-9334-A2B6EAB1FD16}" BaseCaption="2178" MenuLocked="true" SnakeTrail="true" GhostBox="false" ColourGradient="false" GraphDisplay="false" KeyRotation="false" HingedAxis="false" TableLockedToFocused="false" />
+					<View Type="Auto Settings" Left="986" Top="264" Width="360" Height="160" Locked="true" FontSize="0" Guid="{364DEEFE-1B97-4646-921B-76BC9EC64CB6}" BaseCaption="1991" MenuLocked="true" SnakeTrail="true" GhostBox="false" ColourGradient="false" GraphDisplay="false" KeyRotation="false" HingedAxis="false" TableLockedToFocused="false" />
+					<View Type="Runtime Value List" Left="986" Top="426" Width="360" Height="532" Locked="true" FontSize="0" Guid="{9A451A10-DE50-4905-B2D1-0B7E215EA518}" ColumnsCount="1" Caption="Anti-Lag / Launch" CaptionStrId="0" SortMode="0" BoldFont="true">
+						<DataIDGroups>
+							<RuntimeViewDataIDGroup GroupID="0" DataIDs="2593,1152,1628,1443,3068,2596,2595,2597,2498,1450,1600,1000,1091,1078,1064,3040,710,1004" />
+						</DataIDGroups>
+					</View>
+					<View Type="Digital Gauge" Left="1348" Top="2" Width="346" Height="300" Locked="true" FontSize="0" Guid="{14FFCC28-79DD-4F24-801B-75E3EE9D2B1A}">
+						<DataIDGroups>
+							<RuntimeViewDataIDGroup GroupID="0" DataIDs="1000,1091" />
+						</DataIDGroups>
+					</View>
+					<View Type="Dial Gauge" Left="1348" Top="304" Width="346" Height="346" Locked="true" FontSize="0" Guid="{B5A94DA2-8F71-492B-BC59-B7A87FCF24C1}" ManualConfig="true" GaugeMin="-80" GaugeMax="100" YellowLine="101" RedLine="101" LowYellowLine="-81" LowRedLine="-81" SmallTicks="5" LargeTicks="9" DecPlaces="0" GaugeColor="16777002" HighQuality="true" ViewCaption="Boost/Vac" MultiplierIndex="2">
+						<DataIDGroups>
+							<RuntimeViewDataIDGroup GroupID="0" DataIDs="1091" />
+						</DataIDGroups>
+					</View>
+					<View Type="Digital Gauge" Left="1348" Top="652" Width="346" Height="306" Locked="true" FontSize="0" Guid="{9B1DF6C4-6716-4A25-A790-5CCF0E45F355}">
+						<DataIDGroups>
+							<RuntimeViewDataIDGroup GroupID="0" DataIDs="1064,1078" />
+						</DataIDGroups>
+					</View>
+				</Views>
+			</Page>
+			<Page Name="Limits" NameStrId="0" CurrentTableDataID="-1" CurrentSettingsView="{00000000-0000-0000-0000-000000000000}">
+				<Views>
+					<View Type="Auto Settings" Left="2" Top="2" Width="338" Height="400" Locked="true" FontSize="0" Guid="{69A89BF0-2FCD-4A58-AC12-10CA0FF87462}" BaseCaption="167" MenuLocked="true" SnakeTrail="true" GhostBox="false" ColourGradient="false" GraphDisplay="false" KeyRotation="false" HingedAxis="false" TableLockedToFocused="false" />
+					<View Type="Auto Settings" Left="342" Top="2" Width="338" Height="400" Locked="true" FontSize="0" Guid="{5B73CEA2-FD01-4B31-BAEB-B81143568BBB}" BaseCaption="168" MenuLocked="true" SnakeTrail="true" GhostBox="false" ColourGradient="false" GraphDisplay="false" KeyRotation="false" HingedAxis="false" TableLockedToFocused="false" />
+					<View Type="Auto Settings" Left="682" Top="2" Width="338" Height="400" Locked="true" FontSize="0" Guid="{A8EB02E6-9A68-446F-A9B5-DF4FCC536F3E}" BaseCaption="995" MenuLocked="true" SnakeTrail="true" GhostBox="false" ColourGradient="false" GraphDisplay="false" KeyRotation="false" HingedAxis="false" TableLockedToFocused="false" />
+					<View Type="Auto Settings" Left="1022" Top="2" Width="336" Height="400" Locked="true" FontSize="0" Guid="{FA8A4A6E-C9B3-4937-942C-9956BE8E1A61}" BaseCaption="1028" MenuLocked="true" SnakeTrail="true" GhostBox="false" ColourGradient="false" GraphDisplay="false" KeyRotation="false" HingedAxis="false" TableLockedToFocused="false" />
+					<View Type="Auto Settings" Left="1360" Top="2" Width="334" Height="400" Locked="true" FontSize="0" Guid="{55CFC59E-6E6C-43C5-B9C9-7F7B5FDBF76E}" BaseCaption="1011" MenuLocked="true" SnakeTrail="true" GhostBox="false" ColourGradient="false" GraphDisplay="false" KeyRotation="false" HingedAxis="false" TableLockedToFocused="false" />
+					<View Type="Auto Settings" Left="2" Top="404" Width="560" Height="180" Locked="true" FontSize="0" Guid="{DFD390E7-3E68-49B3-8840-42A312284193}" BaseCaption="5484" MenuLocked="true" SnakeTrail="true" GhostBox="false" ColourGradient="true" GraphDisplay="false" KeyRotation="false" HingedAxis="false" TableLockedToFocused="false" />
+					<View Type="Auto Settings" Left="2" Top="586" Width="560" Height="180" Locked="true" FontSize="0" Guid="{6B485394-E7E2-4486-87C2-AC9F60EC8FF8}" BaseCaption="1082" MenuLocked="true" SnakeTrail="true" GhostBox="false" ColourGradient="true" GraphDisplay="false" KeyRotation="false" HingedAxis="false" TableLockedToFocused="false" />
+					<View Type="Auto Settings" Left="2" Top="768" Width="560" Height="190" Locked="true" FontSize="0" Guid="{23FD5AE7-13DD-4E8F-949C-9F06CEADB509}" BaseCaption="1184" MenuLocked="true" SnakeTrail="true" GhostBox="false" ColourGradient="false" GraphDisplay="false" KeyRotation="false" HingedAxis="false" TableLockedToFocused="false" />
+					<View Type="Runtime Value List" Left="564" Top="404" Width="248" Height="554" Locked="true" FontSize="0" Guid="{8DC9192F-BFE2-41BD-A0B3-578C4AF58A1A}" ColumnsCount="1" Caption="Engine Protection" CaptionStrId="0" SortMode="0" BoldFont="true">
+						<DataIDGroups>
+							<RuntimeViewDataIDGroup GroupID="0" DataIDs="1154,1155,1630,1595,1578,1628,1600,1403,1100,1530,1531,1534,1540,1000,1001,1004,1012,1081" />
+						</DataIDGroups>
+					</View>
+					<View Type="Time Plot" Left="814" Top="404" Width="880" Height="554" Locked="true" FontSize="12" Guid="{DA09B586-40DD-4DDA-8368-68FC55A60F52}" ZoomLinked="true" CursorLinked="true" DisplayTimeRangeStart="0" DisplayTimeRangeEnd="1" Caption="Time Plot" CaptionStrId="4264">
+						<LogParameterViewInfos>
+							<LogParameterViewInfo DataID="1000" DisplayGroup="0" />
+							<LogParameterViewInfo DataID="1078" DisplayGroup="0" />
+							<LogParameterViewInfo DataID="1064" DisplayGroup="0" />
+							<LogParameterViewInfo DataID="1154" DisplayGroup="0" />
+							<LogParameterViewInfo DataID="1626" DisplayGroup="1" />
+							<LogParameterViewInfo DataID="1403" DisplayGroup="2" />
+						</LogParameterViewInfos>
+						<TimePlot ShowOverlays="true" XAxisVisible="true" MarkersVisible="true" XScrollBarVisible="true" OffsetAxisVisible="true">
+							<PlotSurfaceGroup DisplayMode="0" YAxisVisible="true" YScrollBarVisible="true">
+								<PlotSurface Proportion="-1" />
+								<PlotSurface Proportion="-1" />
+								<PlotSurface Proportion="-1" />
+							</PlotSurfaceGroup>
+						</TimePlot>
+					</View>
+				</Views>
+			</Page>
+			<Page Name="Lambda" NameStrId="0" CurrentTableDataID="-1" CurrentSettingsView="{00000000-0000-0000-0000-000000000000}">
+				<Views>
+					<View Type="Auto Settings" Left="2" Top="2" Width="398" Height="480" Locked="true" FontSize="0" Guid="{09C5238E-5840-45BB-8F23-F82A78E6DF91}" BaseCaption="1174" MenuLocked="true" SnakeTrail="true" GhostBox="false" ColourGradient="false" GraphDisplay="false" KeyRotation="false" HingedAxis="false" TableLockedToFocused="false" />
+					<View Type="Auto Settings" Left="2" Top="484" Width="398" Height="150" Locked="true" FontSize="0" Guid="{C266EDBE-3A32-4E6B-9E1F-138052F25B9D}" BaseCaption="868" MenuLocked="true" SnakeTrail="true" GhostBox="false" ColourGradient="false" GraphDisplay="false" KeyRotation="false" HingedAxis="false" TableLockedToFocused="false" />
+					<View Type="Auto Settings" Left="2" Top="636" Width="398" Height="322" Locked="true" FontSize="0" Guid="{B3886D83-2CE4-4CE4-A0B4-E81EC4CC2D3B}" BaseCaption="2638" MenuLocked="true" SnakeTrail="true" GhostBox="false" ColourGradient="false" GraphDisplay="false" KeyRotation="false" HingedAxis="false" TableLockedToFocused="false" />
+					<View Type="Auto Settings" Left="402" Top="2" Width="800" Height="480" Locked="true" FontSize="0" Guid="{82B3EB0F-C4BE-4E97-97AA-E9243ED19797}" BaseCaption="3330" MenuLocked="true" SnakeTrail="true" GhostBox="false" ColourGradient="true" GraphDisplay="false" KeyRotation="false" HingedAxis="false" TableLockedToFocused="false" />
+					<View Type="Runtime Value List" Left="1204" Top="2" Width="248" Height="480" Locked="true" FontSize="0" Guid="{D58BF1EB-AAD7-460D-9A68-9DFF22B92F4E}" ColumnsCount="1" Caption="Lambda" CaptionStrId="0" SortMode="0" BoldFont="true">
+						<DataIDGroups>
+							<RuntimeViewDataIDGroup GroupID="0" DataIDs="3040,2936,780,2395,1892,1890,1893,2967,1007,2397,3001,1000,1001,1091,1078,1004,1011" />
+						</DataIDGroups>
+					</View>
+					<View Type="Digital Gauge" Left="1454" Top="2" Width="240" Height="480" Locked="true" FontSize="0" Guid="{55DC39E6-9AA2-4765-A616-ACE693DB8104}">
+						<DataIDGroups>
+							<RuntimeViewDataIDGroup GroupID="0" DataIDs="3040,2936,2397" />
+						</DataIDGroups>
+					</View>
+					<View Type="Time Plot" Left="402" Top="484" Width="1292" Height="474" Locked="true" FontSize="12" Guid="{1B825BB3-B0B1-435A-A26F-E46A33EF645C}" ZoomLinked="true" CursorLinked="true" DisplayTimeRangeStart="0" DisplayTimeRangeEnd="1" Caption="Time Plot" CaptionStrId="4264">
+						<LogParameterViewInfos>
+							<LogParameterViewInfo DataID="3040" DisplayGroup="0" />
+							<LogParameterViewInfo DataID="2936" DisplayGroup="0" />
+							<LogParameterViewInfo DataID="2392" DisplayGroup="1" />
+							<LogParameterViewInfo DataID="2395" DisplayGroup="1" />
+						</LogParameterViewInfos>
+						<TimePlot ShowOverlays="true" XAxisVisible="true" MarkersVisible="true" XScrollBarVisible="true" OffsetAxisVisible="true">
+							<PlotSurfaceGroup DisplayMode="0" YAxisVisible="true" YScrollBarVisible="true">
+								<PlotSurface Proportion="-1" />
+								<PlotSurface Proportion="-1" />
+							</PlotSurfaceGroup>
+						</TimePlot>
+					</View>
+				</Views>
+			</Page>
+			<Page Name="Mixture Map" NameStrId="0" CurrentTableDataID="2365" CurrentSettingsView="{00000000-0000-0000-0000-000000000000}">
+				<Views>
+					<View Type="Mixture Map" Left="2" Top="2" Width="1066" Height="956" Locked="true" FontSize="12" Guid="{C9635BCB-D62D-45BA-A4B4-8F27197ACD51}" ZoomLinked="true" CursorLinked="true" DisplayTimeRangeStart="0" DisplayTimeRangeEnd="1" Caption="Mixture Map (Fuel Table 1)" CaptionStrId="2914" FuelTable="2365" RPMSeriesDataID="1000" LoadSeriesDataID="1091" Load2SeriesDataID="1091" MixtureSeriesDataID="3040" CondFilter1SeriesDataID="0" CondFilter2SeriesDataID="0" CondFilter3SeriesDataID="0" DeltaFilter1SeriesDataID="0" DeltaFilter2SeriesDataID="0" DeltaFilter3SeriesDataID="0" Cond1Greater="false" Cond2Greater="false" Cond3Greater="false" Delta1Greater="false" Delta2Greater="false" Delta3Greater="false" Cond1Enabled="false" Cond2Enabled="false" Cond3Enabled="false" Delta1Enabled="false" Delta2Enabled="false" Delta3Enabled="false" ZoneAreaEnabled="true" MinSamplesEnabled="true" Cond1Value="0" Cond2Value="0" Cond3Value="0" Delta1Value="0" Delta2Value="0" Delta3Value="0" ActiveZoneArea="50" MinSamples="10" ShowTarget="true" ShowActual="true" ShowSamples="true" ShowError="true" AbsoluteError="0.27">
+						<LogParameterViewInfos />
+					</View>
+					<View Type="Auto Settings" Left="1070" Top="2" Width="624" Height="446" Locked="true" FontSize="0" Guid="{615D67DC-87DD-44AE-BA5B-AEFA5660A92B}" BaseCaption="1854" MenuLocked="true" SnakeTrail="true" GhostBox="false" ColourGradient="true" GraphDisplay="false" KeyRotation="false" HingedAxis="false" TableLockedToFocused="false" />
+					<View Type="XY Plot" Left="1070" Top="450" Width="624" Height="508" Locked="true" FontSize="12" Guid="{C2E1F2AC-F37A-4A58-81AA-F02142B271C1}" ZoomLinked="true" CursorLinked="true" DisplayTimeRangeStart="0" DisplayTimeRangeEnd="1" Caption="Lambda Vs RPM. Red = WOT. Green = Cruise" CaptionStrId="2913">
+						<LogParameterViewInfos>
+							<LogParameterViewInfo DataID="3042" DisplayGroup="0" />
+						</LogParameterViewInfos>
+						<XYPlot ShowOverlays="true" XAxisParameterDataID="1000" ColorRangeParameterDataID="1078" UseColorRange="true" ManualRange="true" ManualMin="0" ManualMax="8000" ShowColorLegend="true" ShowLines="false" LineWidth="1" ShowPoints="true" PointSize="2" PointStyle="4">
+							<PlotSurfaceGroup DisplayMode="0" ColumnCount="-1" />
+							<ColorRange Name="Unnamed">
+								<ColorRanges>
+									<ColorSpan LowerBound="0" UpperBound="10" Color="65280" />
+									<ColorSpan LowerBound="10" UpperBound="20" Color="65331" />
+									<ColorSpan LowerBound="20" UpperBound="30" Color="65382" />
+									<ColorSpan LowerBound="30" UpperBound="40" Color="65433" />
+									<ColorSpan LowerBound="40" UpperBound="50" Color="65484" />
+									<ColorSpan LowerBound="50" UpperBound="60" Color="16711680" />
+									<ColorSpan LowerBound="60" UpperBound="70" Color="16711680" />
+									<ColorSpan LowerBound="70" UpperBound="80" Color="16711680" />
+									<ColorSpan LowerBound="80" UpperBound="90" Color="16711680" />
+									<ColorSpan LowerBound="90" UpperBound="100" Color="255" />
+								</ColorRanges>
+							</ColorRange>
+						</XYPlot>
+					</View>
+				</Views>
+			</Page>
+			<Page Name="Logging" NameStrId="0" CurrentTableDataID="-1" CurrentSettingsView="{00000000-0000-0000-0000-000000000000}">
+				<Views>
+					<View Type="Time Plot" Left="2" Top="2" Width="1188" Height="816" Locked="true" FontSize="12" Guid="{84CB0A80-451D-4C49-BC50-E5D20E2C4221}" ZoomLinked="true" CursorLinked="true" DisplayTimeRangeStart="0" DisplayTimeRangeEnd="1" Caption="Time Plot" CaptionStrId="4264">
+						<LogParameterViewInfos>
+							<LogParameterViewInfo DataID="1000" DisplayGroup="0" />
+							<LogParameterViewInfo DataID="1001" DisplayGroup="1" />
+							<LogParameterViewInfo DataID="1091" DisplayGroup="1" />
+							<LogParameterViewInfo DataID="1078" DisplayGroup="2" />
+							<LogParameterViewInfo DataID="2936" DisplayGroup="3" />
+							<LogParameterViewInfo DataID="3040" DisplayGroup="3" />
+							<LogParameterViewInfo DataID="2968" DisplayGroup="4" />
+							<LogParameterViewInfo DataID="2967" DisplayGroup="4" />
+							<LogParameterViewInfo DataID="2398" DisplayGroup="5" />
+							<LogParameterViewInfo DataID="1081" DisplayGroup="6" />
+							<LogParameterViewInfo DataID="1680" DisplayGroup="7" />
+							<LogParameterViewInfo DataID="1681" DisplayGroup="7" />
+							<LogParameterViewInfo DataID="1203" DisplayGroup="8" />
+						</LogParameterViewInfos>
+						<TimePlot ShowOverlays="true" XAxisVisible="true" MarkersVisible="true" XScrollBarVisible="true" OffsetAxisVisible="true">
+							<PlotSurfaceGroup DisplayMode="0" YAxisVisible="true" YScrollBarVisible="true">
+								<PlotSurface Proportion="-1" />
+								<PlotSurface Proportion="-1" />
+								<PlotSurface Proportion="-1" />
+								<PlotSurface Proportion="-1" />
+								<PlotSurface Proportion="-1" />
+								<PlotSurface Proportion="-1" />
+								<PlotSurface Proportion="-1" />
+								<PlotSurface Proportion="-1" />
+								<PlotSurface Proportion="-1" />
+							</PlotSurfaceGroup>
+						</TimePlot>
+					</View>
+					<View Type="Navigator" Left="2" Top="820" Width="1188" Height="138" Locked="true" FontSize="12" Guid="{1C04993D-F6C4-4CEC-A2C9-9DE3561D8C68}" ZoomLinked="true" CursorLinked="true" DisplayTimeRangeStart="0" DisplayTimeRangeEnd="1" Caption="Navigator" CaptionStrId="4263">
+						<LogParameterViewInfos>
+							<LogParameterViewInfo DataID="1000" DisplayGroup="0" />
+						</LogParameterViewInfos>
+						<Navigator ShowOverlays="false" XAxisVisible="true" MarkersVisible="true" XScrollBarVisible="false" OffsetAxisVisible="true">
+							<PlotSurfaceGroup DisplayMode="0" YAxisVisible="false" YScrollBarVisible="false">
+								<PlotSurface Proportion="-1" />
+							</PlotSurfaceGroup>
+						</Navigator>
+					</View>
+					<View Type="Parameter List" Left="1192" Top="2" Width="250" Height="956" Locked="true" FontSize="12" Guid="{4339F4D9-6C06-4667-B11E-AD43B923C027}" ZoomLinked="true" CursorLinked="true" DisplayTimeRangeStart="0" DisplayTimeRangeEnd="1" Caption="Parameter List" CaptionStrId="4267" ColumnWidths="80,105,55">
+						<LogParameterViewInfos>
+							<LogParameterViewInfo DataID="1000" DisplayGroup="0" />
+							<LogParameterViewInfo DataID="1038" DisplayGroup="0" />
+							<LogParameterViewInfo DataID="1153" DisplayGroup="0" />
+							<LogParameterViewInfo DataID="1157" DisplayGroup="0" />
+							<LogParameterViewInfo DataID="1159" DisplayGroup="0" />
+							<LogParameterViewInfo DataID="1160" DisplayGroup="0" />
+							<LogParameterViewInfo DataID="2434" DisplayGroup="0" />
+							<LogParameterViewInfo DataID="2436" DisplayGroup="0" />
+							<LogParameterViewInfo DataID="2435" DisplayGroup="0" />
+							<LogParameterViewInfo DataID="2437" DisplayGroup="0" />
+							<LogParameterViewInfo DataID="1007" DisplayGroup="0" />
+							<LogParameterViewInfo DataID="2392" DisplayGroup="0" />
+							<LogParameterViewInfo DataID="2395" DisplayGroup="0" />
+							<LogParameterViewInfo DataID="2396" DisplayGroup="0" />
+							<LogParameterViewInfo DataID="2397" DisplayGroup="0" />
+							<LogParameterViewInfo DataID="2576" DisplayGroup="0" />
+							<LogParameterViewInfo DataID="2577" DisplayGroup="0" />
+							<LogParameterViewInfo DataID="3025" DisplayGroup="0" />
+							<LogParameterViewInfo DataID="2918" DisplayGroup="0" />
+							<LogParameterViewInfo DataID="3038" DisplayGroup="0" />
+							<LogParameterViewInfo DataID="2972" DisplayGroup="0" />
+							<LogParameterViewInfo DataID="3001" DisplayGroup="0" />
+							<LogParameterViewInfo DataID="3008" DisplayGroup="0" />
+							<LogParameterViewInfo DataID="3010" DisplayGroup="0" />
+							<LogParameterViewInfo DataID="3056" DisplayGroup="0" />
+							<LogParameterViewInfo DataID="2936" DisplayGroup="0" />
+							<LogParameterViewInfo DataID="3040" DisplayGroup="0" />
+							<LogParameterViewInfo DataID="3042" DisplayGroup="0" />
+							<LogParameterViewInfo DataID="1305" DisplayGroup="0" />
+							<LogParameterViewInfo DataID="1306" DisplayGroup="0" />
+							<LogParameterViewInfo DataID="1315" DisplayGroup="0" />
+							<LogParameterViewInfo DataID="3412" DisplayGroup="0" />
+							<LogParameterViewInfo DataID="3413" DisplayGroup="0" />
+							<LogParameterViewInfo DataID="3414" DisplayGroup="0" />
+							<LogParameterViewInfo DataID="3419" DisplayGroup="0" />
+							<LogParameterViewInfo DataID="2593" DisplayGroup="0" />
+							<LogParameterViewInfo DataID="2594" DisplayGroup="0" />
+							<LogParameterViewInfo DataID="2595" DisplayGroup="0" />
+							<LogParameterViewInfo DataID="2596" DisplayGroup="0" />
+							<LogParameterViewInfo DataID="2597" DisplayGroup="0" />
+							<LogParameterViewInfo DataID="2041" DisplayGroup="0" />
+						</LogParameterViewInfos>
+					</View>
+					<View Type="Parameter List" Left="1444" Top="2" Width="250" Height="956" Locked="true" FontSize="12" Guid="{E7A4A435-1EF5-4B9C-8244-AAC9F55CC404}" ZoomLinked="true" CursorLinked="true" DisplayTimeRangeStart="0" DisplayTimeRangeEnd="1" Caption="Parameter List" CaptionStrId="4267" ColumnWidths="80,106,63">
+						<LogParameterViewInfos>
+							<LogParameterViewInfo DataID="2541" DisplayGroup="0" />
+							<LogParameterViewInfo DataID="2542" DisplayGroup="0" />
+							<LogParameterViewInfo DataID="2543" DisplayGroup="0" />
+							<LogParameterViewInfo DataID="2544" DisplayGroup="0" />
+							<LogParameterViewInfo DataID="2545" DisplayGroup="0" />
+							<LogParameterViewInfo DataID="2546" DisplayGroup="0" />
+							<LogParameterViewInfo DataID="2547" DisplayGroup="0" />
+							<LogParameterViewInfo DataID="2548" DisplayGroup="0" />
+							<LogParameterViewInfo DataID="2549" DisplayGroup="0" />
+							<LogParameterViewInfo DataID="2550" DisplayGroup="0" />
+							<LogParameterViewInfo DataID="1163" DisplayGroup="0" />
+							<LogParameterViewInfo DataID="1164" DisplayGroup="0" />
+							<LogParameterViewInfo DataID="1165" DisplayGroup="0" />
+							<LogParameterViewInfo DataID="1166" DisplayGroup="0" />
+							<LogParameterViewInfo DataID="1167" DisplayGroup="0" />
+							<LogParameterViewInfo DataID="1168" DisplayGroup="0" />
+							<LogParameterViewInfo DataID="1169" DisplayGroup="0" />
+							<LogParameterViewInfo DataID="1170" DisplayGroup="0" />
+							<LogParameterViewInfo DataID="1052" DisplayGroup="0" />
+							<LogParameterViewInfo DataID="1053" DisplayGroup="0" />
+							<LogParameterViewInfo DataID="1054" DisplayGroup="0" />
+							<LogParameterViewInfo DataID="1055" DisplayGroup="0" />
+							<LogParameterViewInfo DataID="1334" DisplayGroup="0" />
+							<LogParameterViewInfo DataID="1335" DisplayGroup="0" />
+							<LogParameterViewInfo DataID="1336" DisplayGroup="0" />
+							<LogParameterViewInfo DataID="1337" DisplayGroup="0" />
+							<LogParameterViewInfo DataID="1338" DisplayGroup="0" />
+							<LogParameterViewInfo DataID="1339" DisplayGroup="0" />
+							<LogParameterViewInfo DataID="1355" DisplayGroup="0" />
+							<LogParameterViewInfo DataID="1356" DisplayGroup="0" />
+							<LogParameterViewInfo DataID="1357" DisplayGroup="0" />
+						</LogParameterViewInfos>
+					</View>
+				</Views>
+			</Page>
+		</Pages>
+	</ViewLayout>
+</LinkStorage>

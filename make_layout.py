@@ -1,6 +1,8 @@
-"""Generate the PCLink layout (.llf5) for the BMW E30 tune.
+"""Generate the Full Tuning Layout for PCLink (.llf5).
 
-    python make_layout.py OUT.llf5 [--force]
+    python make_layout.py TUNE.pclx OUT.llf5 [--force]
+
+TUNE is any tune from the ECU you are laying out for; it is only used to check the layout.
 
 Sized for a 1920x1080 screen with the ECU Settings panel pinned open, which leaves a
 1700 x 964 page (measured from the real PCLink window). Every menu and runtime value is
@@ -17,9 +19,8 @@ import pclink
 
 W, H = 1696, 960
 LAYOUTS = os.path.join(pclink.PCLINK_DIR, 'Layouts')
-TUNE = os.path.join(pclink.PCLINK_DIR, 'Use me as a test tune', 'BMW E30.pclx')
 BIG, TUNING = '1920 x1080.llf5', 'New Tuning Layout 1920x1080.llf5'
-t = pclink.Tune(TUNE)
+t = pclink.Tune(sys.argv[1])
 lang = pclink.load_strings()
 
 # ---- menu name -> string id: ids Link's own layouts use first, then the ECU definition file
@@ -138,8 +139,15 @@ def rid(caption):
 
 RPM, MAP, MGP, TPS, ECT, IAT, LAM, IGN, BATT, DUTY, ETH = 1000, 1001, 1091, 1078, 1004, 1011, 3040, 1064, 1081, 1007, 2397
 TARGET = rid('AFR/Lambda Target')
-old = {p.get('Name'): p for p in ET.parse(os.path.join(LAYOUTS, 'Test2.llf5')).getroot().iter('Page')}
-old_lists = [v.find('.//RuntimeViewDataIDGroup').get('DataIDs').split(',') for v in old['Config'].iter('View')]
+
+
+def link_list(caption):
+    """DataIds of one of the stock lists on Link's own Configuration page (ids the ECU lacks are shown as gaps)."""
+    pg = [p for p in ET.parse(os.path.join(LAYOUTS, BIG)).getroot().iter('Page') if p.get('Name') == 'Configuration'][0]
+    v = [v for v in pg.iter('View') if v.get('Caption') == caption][0]
+    return v.find('.//RuntimeViewDataIDGroup').get('DataIDs').split(',')
+
+
 r = lambda a, b: list(range(a, b + 1))
 pages = {}
 
@@ -171,11 +179,8 @@ pages['Basics'] = (-1, [
 
 # ---------------------------------------------------------------- Config: inputs, outputs, sensors
 pages['Config'] = (-1, [
-    values('Outputs', old_lists[0], 2, 2, 248, 398, check=False),  # the two lists from Test2.llf5, exactly as PCLink saved them
-    values('ECU', [BATT, rid('ECU Temperature'), rid('Fault Codes'), rid('Fault Code Count'), rid('Trig1 Signal'),
-                   rid('Trig2 Signal'), rid('Trig1 Arming'), rid('Trig2 Arming'), rid('CPU Idle Percent')], 2, 402, 248, 180),
-    values('Inputs', old_lists[1], 252, 2, 248, 398, check=False),
-    digital([BATT], 252, 402, 248, 180),
+    values('Outputs', link_list('Auxiliary'), 2, 2, 498, 348, cols=2, check=False),
+    values('Analog Inputs', link_list('Analog'), 2, 352, 498, 230, cols=2, check=False),
     settings('MAP', 502, 2, 396, 130), settings('ECT', 502, 134, 396, 130), settings('IAT', 502, 266, 396, 130),
     settings('Throttle Position Sensor', 502, 398, 396, 184),
     settings('Lambda 1', 900, 2, 396, 130), settings('Ethanol Sensor', 900, 134, 396, 130),
@@ -185,9 +190,12 @@ pages['Config'] = (-1, [
     table('Injector Dead Time Table', 2, 586, 596, 150),
     table('Firing Order Table', 2, 738, 596, 100),
     table('Injector Short Pulse Width Adder Table', 2, 840, 596, 118),
-    settings('Tacho', 600, 586, 366, 372),
-    settings('Injector Test', 968, 586, 362, 184),
-    settings('Ignition Test', 968, 772, 362, 186),
+    settings('Tacho', 600, 586, 366, 190),
+    values('Digital Inputs', link_list('Digital'), 600, 778, 366, 180, cols=2, check=False),
+    settings('Injector Test', 968, 586, 362, 110),
+    settings('Ignition Test', 968, 698, 362, 80),
+    values('ECU', [BATT, rid('ECU Temperature'), rid('Fault Codes'), rid('Fault Code Count'), rid('Trig1 Signal'),
+                   rid('Trig2 Signal'), rid('Trig1 Arming'), rid('Trig2 Arming'), rid('CPU Idle Percent')], 968, 780, 362, 178),
     settings('Engine Fan', 1332, 586, 362, 372),
 ])
 
@@ -399,7 +407,7 @@ for name, (tbl, views) in pages.items():
                        CurrentSettingsView='{00000000-0000-0000-0000-000000000000}')
     ET.SubElement(pg, 'Views').extend(views)
 ET.indent(root, '\t')
-out = sys.argv[1]
+out = sys.argv[2]
 if os.path.exists(out) and '--force' not in sys.argv:
     sys.exit(f'{out} exists - pass --force to replace it')
 with open(out, 'w', encoding='ascii', newline='\n') as f:
